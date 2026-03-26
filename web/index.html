@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Time Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Reaction Time</h1>
+            <p>Testez votre temps de réaction!</p>
+        </header>
+
+        <div class="game-area" id="gameArea">
+            <div class="message" id="message">Cliquez pour commencer</div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="label">Dernier temps:</span>
+                <span class="value" id="lastTime">--</span> ms
+            </div>
+            <div class="stat-item">
+                <span class="label">Meilleur score:</span>
+                <span class="value" id="bestTime">--</span> ms
+            </div>
+            <div class="stat-item">
+                <span class="label">Niveau:</span>
+                <span class="value" id="level">Facile</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="startBtn" class="btn btn-primary">Commencer</button>
+            <button id="levelBtn" class="btn btn-secondary">Niveau: Facile</button>
+        </div>
+
+        <div class="instructions">
+            <h3>Comment jouer:</h3>
+            <ol>
+                <li>L'écran devient <span class="red">ROUGE</span> - Attendez patiemment</li>
+                <li>L'écran devient <span class="green">VERT</span> - Cliquez au plus vite!</li>
+                <li>Votre temps de réaction s'affichera</li>
+                <li>Essayez d'améliorer votre meilleur score</li>
+            </ol>
+        </div>
+
+        <footer>
+            <p>Mini-Projet C • Reaction Time Game © 2024</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

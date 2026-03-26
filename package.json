@@ -1,0 +1,16 @@
+{
+  "name": "reaction-time-game",
+  "version": "1.0.0",
+  "description": "Reaction Time Game - Test your reflexes!",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m http.server 3000"
+  },
+  "keywords": ["game", "reaction", "time", "raylib"],
+  "author": "admiralkool1953-prog",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admiralkool1953-prog/un-jeu.git"
+  }
+}
